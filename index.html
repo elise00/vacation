@@ -5,70 +5,73 @@
     <title>SCI-FI PORTAL</title>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="all">
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>  
   </head>
 
   <body>
     <div class="jumbotron">
-      <h1>You have arrived at the science fiction portal</h1>
-      <p>Welcome, friend! The stars have directed you here because you're in true need of an otherworldly diversion. Answer the following queries and see where destiny lies.</p>
+      <h1>Welcome to the Science Fiction Portal</h1>
+      <p>Hello, friend! It appears you're in true need of an otherworldly diversion. Answer the following queries and see where destiny lies.</p>
     </div>
    
     <div class="container">
       <form action="">
       <p>1. What environment suits you?</p>
         <label>
-         <input type="radio" id="" name = "?" value="Select one">The forest
+          <input type="radio" class="environment"  value="2" checked>The forest
         </label>
         <label>
-          <input type="radio" id="" name = "?" value="Select one">The desert
+          <input type="radio" class="environment" value ="1">The desert
         </label>
         <label>
-          <input type="radio" id="" name = "?" value="Select one">The metropolis
+          <input type="radio" class="environment" value="3">The metropolis
         </label>
         
 
       <p>2. What color do you find pleasing?</p>
         <label>
-          <input type="radio" id="" name = "?" value="Select one">Red
+          <input type="radio" class="color" checked value="1">Red
         </label>
         <label>
-           <input type="radio" id="" name = "?" value="Select one">Green
+          <input type="radio" class="color">Green
         </label>
         <label>
-           <input type="radio" id="" name = "?" value="Select one">Blue
+          <input type="radio" class="color">Blue
          </label>
 
       <p>3. Which activity would you most enjoy?</p>
         <label>
-          <input type="radio" id="" name = "?" value="Select one">Racing in lights
+          <input type="radio" class="activity" checked>Racing in lights
         </label>
         <label>
-          <input type="radio" id="" name = "?" value="Select one">Marveling at nature
+          <input type="radio" class="activity">Marveling at nature
         </label>
         <label>
-          <input type="radio" id="" name = "?" value="Select one">Wandering without destination
+          <input type="radio" class="activity" value="1">Wandering without destination
         </label>
 
       <p>4. What is your alter ego?</p>
         <label>
-          <input type="radio" id="" name = "?" value="Select one">A gamer
+          <input type="radio" class="alterego" checked>A gamer
         </label>
         <label>
-          <input type="radio" id="" name = "?" value="Select one">A scientist
+          <input type="radio" class="alterego">A scientist
         </label>
         <label>
-          <input type="radio" id="" name = "?" value="Select one">A prince
+          <input type="radio" class="alterego" value="1">A prince
         </label>
       
-      <p>5. What is your alter ego?</p>
+      <p>5. What is your future</p>
         <label>
-          <input type="radio" id="" name = "?" value="Select one">Death by dehydration
+          <input type="radio" class="future" value="1" checked>Death by dehydration
         </label>
         <label>
-          <input type="radio" id="" name = "?" value="Select one">Death by light pixels cutting your body
+          <input type="radio" class="future">Death by light pixels cutting your body
         </label>
         <label>
-          <input type="radio" id="" name = "?" value="Select one">Death by animal mauling
+          <input type="radio" class="future">Death by animal mauling
         </label>
 
       <button type="submit" class="btn">Submit!</button>
@@ -97,8 +100,5 @@
         </div>
       </div>
     </div>
-
-    <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/scripts.js"></script>  
   </body>
 </html>
