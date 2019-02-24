@@ -1,5 +1,14 @@
+.jumbotron {
+  text-align: center;
+  background-color: #00000000; 
+  padding-bottom: 25px;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-bottom: 0px;
+}
+
 body {
-  background-color: #011535;
+  background-color: rgba(3,0,20,1);
   color: white;
   padding-left: 10px;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, .4), rgba(3,0,20,1)),
@@ -19,12 +28,7 @@ img {
   display: none;
 }
 
-.jumbotron {
-  text-align: center;
-  background-color: #00000000; 
-  padding-bottom: 25px;
-  padding-left: 35px;
-  padding-right: 35px;
-  margin-bottom: 0px;
+.btn {
+  background-color: purple;
 }
 

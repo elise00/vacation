@@ -3,8 +3,8 @@ $(document).ready(function() {
       
       //var total = add up answers
       var question1 = parseInt($("input.environment").val());
-      var question3 = parseInt($("input.color").val());
-      var question2 = parseInt($("input.activity").val());
+      var question2 = parseInt($("input.color").val());
+      var question3 = parseInt($("input.activity").val());
       var question4 = parseInt($("input.alterego").val());
       var question5 = parseInt($("input.future").val());
   
