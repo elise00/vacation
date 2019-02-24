@@ -15,21 +15,18 @@ $(document).ready(function() {
       }
   
       else if (total <= 6) {
-        $(".amazon").show();
-        $("body").addClass("amazon-background");
+        $(".dune").show();
+        $("body").addClass("dune-background");
       }
       else if (total < 6 || total <= 12) {
-        $(".nepal").show();
-        $("body").addClass("nepal-background");
+        $(".jurassic").show();
+        $("body").addClass("jurassic-background");
       }
       else if (total === 13 || total <= 18) {
-        $(".oregon").show();
-        $("body").addClass("oregon-background");
+        $(".tron").show();
+        $("body").addClass("tron-background");
       }
-      else if (total === 19 || total <= 24) {
-        $(".jamaica").show();
-        $("body").addClass("jamaica-background");
-      }
+
       event.preventDefault();
   
     });
