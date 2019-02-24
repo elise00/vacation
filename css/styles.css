@@ -2,3 +2,7 @@ body {
   background-color: #011535;
   color: white;
 }
+
+.form-control {
+  width: 35%;
+}
