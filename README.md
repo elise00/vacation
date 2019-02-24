@@ -11,7 +11,7 @@ In this second project, I demonstrate the new JavaScript and jQuery skills I've 
 As a little twist, I decided to make the vacation destinations be science fiction holidays.
 
 ## Link
-Github pages link...
+Click here to see the page in action: elise00.github.io/vacation
 
 ## Support and contact details
  Contact me at eljc00@gmail.com.
