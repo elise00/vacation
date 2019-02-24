@@ -18,65 +18,77 @@
    
     <div class="container">
 
-      <form>
+      <form id="formz" action="index.html">
       <h4>1. What environment best suits you?</h4>
-        <label>
-          <input type="radio" class="environment"  value="2" checked>The forest
+      <div>
+        <label class="radiopadding">
+          <input type="radio" id="environmentChoice1"  name="environment" value="The forest" checked> The forest
         </label><br>
-        <label>
-          <input type="radio" class="environment" value ="1">The desert
+        <label class="radiopadding">
+          <input type="radio" id="environmentChoice2" name="environment" value ="The desert"> The desert
         </label><br>
-        <label>
-          <input type="radio" class="environment" value="3">The metropolis
-        </label><br>
+        <label class="radiopadding">
+          <input type="radio" id="environmentChoice3" name="environment" value="The metropolis"> The metropolis
+        </label>
+      </div>
         
       <p></p>
-      <p>2. What color do you find pleasing?</p>
-        <label>
-          <input type="radio" class="color" checked value="1">Red
+      <h4>2. What color do you find pleasing?</h4>
+      <div>
+        <label class="radiopadding">
+          <input type="radio" id="colorChoice1" name="color" value="Red" checked> Red
         </label><br>
-        <label>
-          <input type="radio" class="color">Green
+        <label class="radiopadding">
+          <input type="radio" id="colorChoice2" name="color" value="Green"> Green
         </label><br>
-        <label>
-          <input type="radio" class="color">Blue
+        <label class="radiopadding">
+          <input type="radio" id="colorChoice3" name="color" value="Blue">  Blue
          </label>
+      </div>
 
       <p></p>
-      <p>3. Which activity would you most enjoy?</p>
-        <label>
-          <input type="radio" class="activity" checked>Racing in lights
+      <h4>3. Which activity would you most enjoy?</h4>
+        <div>
+        <label class="radiopadding">
+          <input type="radio" id="activityChoice1" name="activity" value="Racing in lights" checked> Racing in lights
         </label><br>
-        <label>
-          <input type="radio" class="activity">Marveling at nature
+        <label class="radiopadding">
+          <input type="radio" id="activityChoice2" name="activity" value="Marveling at nature"> Marveling at nature
         </label><br>
-        <label>
-          <input type="radio" class="activity" value="1">Wandering without destination
-        </label><br>
+        <label class="radiopadding">
+          <input type="radio" id="activityChoice3" name="activity" value="Wandering without destination"> Wandering without destination
+        </label>
+        </div>
 
       <p></p>
-      <p>4. What is your alter ego?</p>
-        <label>
-          <input type="radio" class="alterego" checked>A gamer
+      <h4>4. What is your alter ego?</h4>
+        <div>
+        <label class="radiopadding">
+          <input type="radio" id="alteregoChoice1" name="alterego" value="A gamer" checked> A gamer
         </label><br>
-        <label>
-          <input type="radio" class="alterego">A scientist
+        <label class="radiopadding">
+          <input type="radio" id="alteregoChoice2" name="alterego" value="A scientist"> A scientist
         </label><br>
-        <label>
-          <input type="radio" class="alterego" value="1">A prince
-        </label><br>
+        <label class="radiopadding">
+          <input type="radio" id="alteregoChoice3" name="alterego" value="A prince">
+          rince
+        </label>
+        </div>
       
       <p></p>
-      <p>5. What is in your future?</p>
-        <label>
-          <input type="radio" class="future" value="1" checked>Death by dehydration
+      <h4>5. What is in your future?</h4>
+        <div>
+        <label class="radiopadding">
+          <input type="radio" id="futureChoice1" name="future" value="Death by dehydration" checked> Death by dehydration
         </label><br>
-        <label>
-          <input type="radio" class="future">Death by light pixels cutting your body
+        <label class="radiopadding">
+          <input type="radio" id="futureChoice1" name="future" value="Death by light pixels cutting your body"> Death by light pixels cutting your body
         </label><br>
-        <label>
-          <input type="radio" class="future">Death by animal mauling
-        </label><br>
+        <label class="radiopadding">
+          <input type="radio" id="futureChoice1" name="future" value="Death by animal mauling"> Death by animal mauling
+        </label>
+       </div>
+
       <p></p>
       <button type="submit" class="btn">Submit!</button>
       </form>

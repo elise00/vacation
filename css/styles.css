@@ -24,6 +24,10 @@ img {
   margin-right: auto;
 }
 
+/* input {
+  margin: .4rem;
+} */
+
 .dune, .jurassic, .tron {
   display: none;
 }
@@ -32,3 +36,6 @@ img {
   background-color: purple;
 }
 
+.radiopadding {
+  padding-left:35px;
+}

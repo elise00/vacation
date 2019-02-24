@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("form").submit(function(event) {
+  $("#formz").submit(function(event) {
       
       //var total = add up answers
       var question1 = parseInt($("input.environment").val());
