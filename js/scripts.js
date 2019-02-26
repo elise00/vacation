@@ -1,7 +1,6 @@
 $(document).ready(function() {
   $("form").submit(function(event) {
     
-    var question1 = parseInt($("environmentChoice1").val());
     var question2 = parseInt($("question2").val());
     var question3 = parseInt($("question3").val());
     var question4 = parseInt($("question4").val());
